@@ -1,6 +1,6 @@
 //-----(Doge Bot by Xeon Bot Inc.)-----\\
-//-----(Youtube Channel: Xeon)-----\\
-//-----(Whatsapp number: +916909137213)-----\\
+//-----(Youtube Channel: BLZXB5)-----\\
+//-----(Whatsapp number: +6283117436733)-----\\
 //-----(Wanna reupload??? Can, but give proper credit)----\\
 
 const
@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Doge Bot";
+fake = "Mayumi DVT";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
@@ -370,30 +370,30 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 			var ase = new Date();
                         var jamss = ase.getHours();
                          switch(jamss){
-                case 0: jamss = "Doge Bot"; break;
-                case 1: jamss = "Doge Bot"; break;
-                case 2: jamss = "Doge Bot"; break;
-                case 3: jamss = "Doge Bot"; break;
-                case 4: jamss = "Doge Bot"; break;
-                case 5: jamss = "Doge Bot"; break;
-                case 6: jamss = "Doge Bot"; break;
-                case 7: jamss = "Doge Bot"; break;
-                case 8: jamss = "Doge Bot"; break;
-                case 9: jamss = "Doge Bot"; break;
-                case 10: jamss = "Doge Bot"; break;
-                case 11: jamss = "Doge Bot"; break;
-                case 12: jamss = "Doge Bot"; break;
-                case 13: jamss = "Doge Bot"; break;
-                case 14: jamss = "Doge Bot"; break;
-                case 15: jamss = "Doge Bot"; break;
-                case 16: jamss = "Doge Bot"; break;
-                case 17: jamss = "Doge Bot"; break;
-                case 18: jamss = "Doge Bot"; break;
-                case 19: jamss = "Doge Bot"; break;
-                case 20: jamss = "Doge Bot"; break;
-                case 21: jamss = "Doge Bot"; break;
-                case 22: jamss = "Doge Bot"; break;
-                case 23: jamss = "Doge Bot"; break;
+                case 0: jamss = "Mayumi DVT"; break;
+                case 1: jamss = "Mayumi DVT"; break;
+                case 2: jamss = "Mayumi DVT"; break;
+                case 3: jamss = "Mayumi DVT"; break;
+                case 4: jamss = "Mayumi DVT"; break;
+                case 5: jamss = "Mayumi DVT"; break;
+                case 6: jamss = "Mayumi DVT"; break;
+                case 7: jamss = "Mayumi DVT"; break;
+                case 8: jamss = "Mayumi DVT"; break;
+                case 9: jamss = "Mayumi DVT"; break;
+                case 10: jamss = "Mayumi DVT"; break;
+                case 11: jamss = "Mayumi DVT"; break;
+                case 12: jamss = "Mayumi DVT"; break;
+                case 13: jamss = "Mayumi DVT"; break;
+                case 14: jamss = "Mayumi DVT"; break;
+                case 15: jamss = "Mayumi DVT"; break;
+                case 16: jamss = "Mayumi DVT"; break;
+                case 17: jamss = "Mayumi DVT"; break;
+                case 18: jamss = "Mayumi DVT"; break;
+                case 19: jamss = "Mayumi DVT"; break;
+                case 20: jamss = "Mayumi DVT"; break;
+                case 21: jamss = "Mayumi DVT"; break;
+                case 22: jamss = "Mayumi DVT"; break;
+                case 23: jamss = "Mayumi DVT"; break;
             }
             var tampilUcapan = "" + jamss;
             const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
@@ -495,7 +495,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+	 { remoteJid: "120363022539450791@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -575,7 +575,7 @@ const ftex = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `*${botName} by Xeon Bot Inc.*`,
+                 "text": `*${botName} by DVT Bot Inc.*`,
                  "title": `_${botName}_`,
                  'jpegThumbnail': gambarrr
                         }
@@ -779,7 +779,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Doge Bot Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Mayumi DVT Owner\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        alpha.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -979,7 +979,7 @@ reply(String(e))
     if (isGroup && isAntivirtex && !mek.key.fromMe) {
       if (budy.length > 2500) {
         if (isGroupAdmins) return reply("The group boss is free, right?");
-        reply("ANTIVIRTEX DETECTED!! SORRY YOU WILL BE KICKED ;V");
+        reply("ANTIVIRTEX DETECTED!! SORRY YOU WILL BE KICKED 🔰");
         alpha.groupRemove(from, sender);
       }
 			}
@@ -990,7 +990,7 @@ reply(String(e))
 				if (isGroupAdmins) return reply('The group boss is free, right?')
 				alpha.updatePresence(from, Presence.composing)
 				var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-				reply('WA.ME DETECTED!! SORRY YOU WILL BE KICKED ;V')
+				reply('WA.ME DETECTED!! SORRY YOU WILL BE KICKED 🍁')
 			    alpha.groupRemove(from, [kic]).catch((e) => { sticNotAdmin(from) })
             }
         }
@@ -1059,7 +1059,7 @@ reply(String(e))
 				if (isGroupAdmins) return reply('The group boss is free, right?')
 				alpha.updatePresence(from, Presence.composing)
 				var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-				reply('GROUP LINK DETECTED!! SORRY YOU WILL BE KICKED ;V')
+				reply('GROUP LINK DETECTED!! SORRY YOU WILL BE KICKED ❄️')
 			    alpha.groupRemove(from, [kic]).catch((e) => { sticNotAdmin(from) })
 			}
 			}
@@ -1116,13 +1116,13 @@ if (!settings.autoread) {
 alpha.chatRead(from)
 }
 if (budy.startsWith('bot')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Doge Bot*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*Mayumi DVT*", [{buttonId: 'igm', buttonText: {displayText: 'Github'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftex, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('https://github.com/DGXeon')
+reply('https://github.com')
 }
 if(isButton == 'ytm'){
-reply('https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A')
+reply('https://youtube.com')
 }
 
    const sotoy = [
@@ -1188,18 +1188,18 @@ reply(`┏━━━━⬣ *BOT FEATURES*
 ┃⬡ _AND MANY OTHER FEATURES_
 ┗⬣
 ┏━━━━⬣ *LIST SELLING BOT*
-┃⬡ _RENT 50INR / WEEK_
-┃⬡ _RENT 100INR / MONTH_
-┃⬡ _RENT 150INR / MONTH + PREM_
-┃⬡ _PERMANENT 500INR_
+┃⬡ _RENT Rp 10.000 / WEEK_
+┃⬡ _RENT Rp 40.000 / MONTH_
+┃⬡ _RENT Rp 50.000 / MONTH + PREM_
+┃⬡ _PERMANENT Rp 120.000 / for the lucky ones Rp 50.000_
 ┃⬡ _PERMANENT + PREM 600INR_
 ┗⬣
 ┏━━━━⬣ *PREMIUM RENTAL LIST*
-┃⬡ _PREM 50INR / MONTH_
-┃⬡ _PREM 100INR PERMANENT_
+┃⬡ _PREM Rp 10.000 / MONTH_
+┃⬡ _PREM Rp 20.000 / PERMANENT_
 ┗⬣
 ┏━━━━⬣ *PAYMENT METHOD*
-┃⬡ _PAYTM_
+┃⬡ _Pulsa/Dana/OVO_
 ┗⬣
 ┏━━━━⬣ *CONTACT*
 ┃⬡ _Owner : wa.me/${NomorOwner}_
@@ -1217,24 +1217,24 @@ tod = `┏━━━━━━━━━━━━━━━━━━━━
 ⬡ ${z}Owner Number : ${NomorOwner}${z}
 ┗━━━━━━━━━━━━━━━━━━`
 tod2 =`┏━━━❒ *MENU LIST*
-${z}🐶 ${prefix}soundmenu${z}
-${z}🐶 ${prefix}rentbot${z}
-${z}🐶 ${prefix}status${z}
-${z}🐶 ${prefix}intakemenu${z}
-${z}🐶 ${prefix}runtime${z}
-${z}🐶 ${prefix}makermenu${z}
-${z}🐶 ${prefix}ownermenu${z}
-${z}🐶 ${prefix}groupmenu${z}
-${z}🐶 ${prefix}othermenu${z}
-${z}🐶 ${prefix}downloadmenu${z}
-${z}🐶 ${prefix}funmenu${z}
-${z}🐶 ${prefix}nsfwmenu${z}
-${z}🐶 ${prefix}animemenu${z}
-    watch how you can install this bot in your whatsapp: https://youtu.be/zXvwqA8LvTw
+${z}❄️ ${prefix}soundmenu${z}
+${z}❄️ ${prefix}rentbot${z}
+${z}❄️ ${prefix}status${z}
+${z}❄️ ${prefix}intakemenu${z}
+${z}❄️ ${prefix}runtime${z}
+${z}❄️ ${prefix}makermenu${z}
+${z}❄️ ${prefix}ownermenu${z}
+${z}❄️ ${prefix}groupmenu${z}
+${z}❄️ ${prefix}othermenu${z}
+${z}❄️ ${prefix}downloadmenu${z}
+${z}❄️ ${prefix}funmenu${z}
+${z}❄️ ${prefix}nsfwmenu${z}
+${z}❄️ ${prefix}animemenu${z}
+    private bots are not for sale if you want to rentif you want to rent contact owner :https://wa.me/6283117436733
 ┗━━━━━━━━━━━━━━━━━`
 buttons = [
-{buttonId:`scbot`, buttonText: {displayText: 'BOT SCRIPT🔖'}, type: 1},
-{buttonId:`owner`, buttonText: {displayText: 'BOT OWNER👤'}, type: 1}
+{buttonId:`DVT`, buttonText: {displayText: 'RENT BOT🔥 '}, type: 1},
+{buttonId:`owner`, buttonText: {displayText: 'BOT OWNER🥀'}, type: 1}
 ]
 const menuu = {
     contentText: `${tod}`,
@@ -1482,39 +1482,39 @@ case 'funmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`FUN MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}stupid
-🐶 ${prefix}foolish
-🐶 ${prefix}smart
-🐶 ${prefix}handsome
-🐶 ${prefix}beautiful
-🐶 ${prefix}gay
-🐶 ${prefix}lesbi
-🐶 ${prefix}bastard
-🐶 ${prefix}stubble
-🐶 ${prefix}dog
-🐶 ${prefix}fuck
-🐶 ${prefix}ugly
-🐶 ${prefix}ape
-🐶 ${prefix}cute
-🐶 ${prefix}noob
-🐶 ${prefix}kind
-🐶 ${prefix}great
-🐶 ${prefix}horny
-🐶 ${prefix}wibu
-🐶 ${prefix}asshole
-🐶 ${prefix}truth
-🐶 ${prefix}dare
-🐶 ${prefix}tod
-🐶 ${prefix}couple
-🐶 ${prefix}ship [tag1|tag2]
-🐶 ${prefix}handsomecheck [tag]
-🐶 ${prefix}beautycheck [tag]
-🐶 ${prefix}gaycheck [tag]
-🐶 ${prefix}lesbiancheck [tag]
-🐶 ${prefix}charactercheck [tag]
-🐶 ${prefix}is [text]
-🐶 ${prefix}when [text]
-🐶 ${prefix}can [text]
+🍁 ${prefix}stupid
+🍁 ${prefix}foolish
+🍁 ${prefix}smart
+🍁 ${prefix}handsome
+🍁 ${prefix}beautiful
+🍁 ${prefix}gay
+🍁 ${prefix}lesbi
+🍁 ${prefix}bastard
+🍁 ${prefix}stubble
+🍁 ${prefix}dog
+🍁 ${prefix}fuck
+🍁 ${prefix}ugly
+🍁 ${prefix}ape
+🍁 ${prefix}cute
+🍁 ${prefix}noob
+🍁 ${prefix}kind
+🍁 ${prefix}great
+🍁 ${prefix}horny
+🍁 ${prefix}wibu
+🍁 ${prefix}asshole
+🍁 ${prefix}truth
+🍁 ${prefix}dare
+🍁 ${prefix}tod
+🍁 ${prefix}couple
+🍁 ${prefix}ship [tag1|tag2]
+🍁 ${prefix}handsomecheck [tag]
+🍁 ${prefix}beautycheck [tag]
+🍁 ${prefix}gaycheck [tag]
+🍁 ${prefix}lesbiancheck [tag]
+🍁 ${prefix}charactercheck [tag]
+🍁 ${prefix}is [text]
+🍁 ${prefix}when [text]
+🍁 ${prefix}can [text]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT🔖'},type:1},
@@ -1612,7 +1612,7 @@ case 'listmenu':
  description: `_*Hi, please choose the menu*_`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Mayumi DVT`,
  rows: [
                           {
                               "title": "SellBot",
@@ -1684,12 +1684,12 @@ case 'nsfwmenu':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}hentai
-🐶 ${prefix}blowjob
-🐶 ${prefix}awoo
-🐶 ${prefix}neko
-🐶 ${prefix}megumin2
-🐶 ${prefix}trapnime
+🔥 ${prefix}hentai
+🔥 ${prefix}blowjob
+🔥 ${prefix}awoo
+🔥 ${prefix}neko
+🔥 ${prefix}megumin2
+🔥 ${prefix}trapnime
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1707,12 +1707,12 @@ await alpha.sendMessage(from, funn, MessageType.buttonsMessage, {quoted: ftex})
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: mek})
 stamtus = `❏ 「 \`\`\`18+ MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}waifu
-🐶 ${prefix}loli
-🐶 ${prefix}husbu
-🐶 ${prefix}milf
-🐶 ${prefix}cosplay
-🐶 ${prefix}wallml
+🔥 ${prefix}waifu
+🔥 ${prefix}loli
+🔥 ${prefix}husbu
+🔥 ${prefix}milf
+🔥 ${prefix}cosplay
+🔥 ${prefix}wallml
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1833,34 +1833,34 @@ case 'downloadmenu':
 case 'donwloadmenu':
 stamtus =`❏ 「 \`\`\`DOWNLOAD MENU\`\`\` 」
 ────────────────────
-🐶 ${prefix}herolist
-🐶 ${prefix}herodetail [ hero ]
-🐶 ${prefix}google [ search ]
-🐶 ${prefix}gimage [ search ]
-🐶 ${prefix}wiki [ search ] _indo_
-🐶 ${prefix}mediafire [ link ]
-🐶 ${prefix}facebook [ fb link ]
-🐶 ${prefix}facebook2 [ fb link ]
-🐶 ${prefix}twitter [ twitter video link ]
-🐶 ${prefix}twmp3 [ twitter video link ]
-🐶 ${prefix}twitter2 [ twitter video link ]
-🐶 ${prefix}ytmp4 [ yt link ]
-🐶 ${prefix}ytmp3 [ yt link ]
-🐶 ${prefix}play [ song title ]
-🐶 ${prefix}tiktok [ link ]
-🐶 ${prefix}video [ video title ]
-🐶 ${prefix}tinyurl [ link ]
-🐶 ${prefix}fetch [ link ]
-🐶 ${prefix}instagram [insta normal video link ] 
-🐶 ${prefix}pinterest [ search ]
-🐶 ${prefix}lyrics [ title ]
-🐶 ${prefix}tourl [ reply image/video ]
-🐶 ${prefix}numbers [ number ]
-🐶 ${prefix}calculator [ number ]
-🐶 ${prefix}fancytext [text]
-🐶 ${prefix}githubstalk [ username ]
-🐶 ${prefix}translate [ code text ]
-🐶 ${prefix}ss [ link ]
+🔰 ${prefix}herolist
+🔰 ${prefix}herodetail [ hero ]
+🔰 ${prefix}google [ search ]
+🔰 ${prefix}gimage [ search ]
+🔰 ${prefix}wiki [ search ] _indo_
+🔰 ${prefix}mediafire [ link ]
+🔰 ${prefix}facebook [ fb link ]
+🔰 ${prefix}facebook2 [ fb link ]
+🔰 ${prefix}twitter [ twitter video link ]
+🔰 ${prefix}twmp3 [ twitter video link ]
+🔰 ${prefix}twitter2 [ twitter video link ]
+🔰 ${prefix}ytmp4 [ yt link ]
+🔰 ${prefix}ytmp3 [ yt link ]
+🔰 ${prefix}play [ song title ]
+🔰 ${prefix}tiktok [ link ]
+🔰 ${prefix}video [ video title ]
+🔰 ${prefix}tinyurl [ link ]
+🔰 ${prefix}fetch [ link ]
+🔰 ${prefix}instagram [insta normal video link ] 
+🔰 ${prefix}pinterest [ search ]
+🔰 ${prefix}lyrics [ title ]
+🔰 ${prefix}tourl [ reply image/video ]
+🔰 ${prefix}numbers [ number ]
+🔰 ${prefix}calculator [ number ]
+🔰 ${prefix}fancytext [text]
+🔰 ${prefix}githubstalk [ username ]
+🔰 ${prefix}translate [ code text ]
+🔰 ${prefix}ss [ link ]
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1879,33 +1879,33 @@ stamtus =`❏ 「 \`\`\`MAKER MENU\`\`\` 」
 ────────────────────
 _example: ${prefix}throne Xeon_
 ────────────────────
-🐶 ${prefix}write 「 text 」
-🐶 ${prefix}throne 「 text 」
-🐶 ${prefix}logoff 「 text 」
-🐶 ${prefix}cslogo 「 text 」
-🐶 ${prefix}matrix 「 text 」
-🐶 ${prefix}skytext 「 text 」
-🐶 ${prefix}barcode 「 text 」
-🐶 ${prefix}narutotxt 「 text 」
-🐶 ${prefix}bneon 「 text 」
-🐶 ${prefix}tfire 「 text 」
-🐶 ${prefix}light 「 text 」
-🐶 ${prefix}wall 「 text 」
-🐶 ${prefix}dropair 「 text 」
-🐶 ${prefix}wolf 「 text 」
-🐶 ${prefix}logocrs 「 text 」
-🐶 ${prefix}phlogo 「 text 」
-🐶 ${prefix}phcomment 「 *text|text 」
-🐶 ${prefix}pubg 「 text|text 」
-🐶 ${prefix}leavest 「 text 」
-🐶 ${prefix}notewrite 「 text 」
-🐶 ${prefix}neon2 「 text 」
-🐶 ${prefix}marvel 「 text|text 」
-🐶 ${prefix}logoa 「 text|text 」
-🐶 ${prefix}t3d 「 text 」
-🐶 ${prefix}flower 「 text 」
-🐶 ${prefix}gplay 「 text 」
-🐶 ${prefix}splay 「 text 」
+🔧 ${prefix}write 「 text 」
+🔧 ${prefix}throne 「 text 」
+🔧 ${prefix}logoff 「 text 」
+🔧 ${prefix}cslogo 「 text 」
+🔧 ${prefix}matrix 「 text 」
+🔧 ${prefix}skytext 「 text 」
+🔧 ${prefix}barcode 「 text 」
+🔧 ${prefix}narutotxt 「 text 」
+🔧 ${prefix}bneon 「 text 」
+🔧 ${prefix}tfire 「 text 」
+🔧 ${prefix}light 「 text 」
+🔧 ${prefix}wall 「 text 」
+🔧 ${prefix}dropair 「 text 」
+🔧 ${prefix}wolf 「 text 」
+🔧 ${prefix}logocrs 「 text 」
+🔧 ${prefix}phlogo 「 text 」
+🔧 ${prefix}phcomment 「 *text|text 」
+🔧 ${prefix}pubg 「 text|text 」
+🔧 ${prefix}leavest 「 text 」
+🔧 ${prefix}notewrite 「 text 」
+🔧 ${prefix}neon2 「 text 」
+🔧 ${prefix}marvel 「 text|text 」
+🔧 ${prefix}logoa 「 text|text 」
+🔧 ${prefix}t3d 「 text 」
+🔧 ${prefix}flower 「 text 」
+🔧 ${prefix}gplay 「 text 」
+🔧 ${prefix}splay 「 text 」
 ────────────────────`
 buttons = [
 {buttonId:`sc`,buttonText:{displayText: 'BOT SCRIPT'},type:1},
@@ -1972,11 +1972,11 @@ break
  
  listMsg = {
  buttonText: 'INTAKE LIST',
- footerText: 'Doge Bot',
+ footerText: 'Mayumi DVT',
  description: `Hi, Please select the intake menu here, use it wisely`,
  sections: [
                      {
-                      "title": `Doge Bot`,
+                      "title": `Mayumi DVT`,
  rows: [
                           {
                              "title": "randomgirl",
@@ -3165,12 +3165,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Doge Bot Developer`,
+"displayName": `DVT Developer`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Owner\nEND:VCARD`
 })
 }
 alpha.sendMessage(from, {
-"displayName": `Doge Bot Developer`,
+"displayName": `DVT Developer`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3211,9 +3211,9 @@ anu = `──────────────────
 NOTE : _DO NOT SELL BOT SCRIPT_
 ──────────────────
 *👇SCRIPT GITHUB LINK👇*
-https://github.com/DGXeon/DogeBot2
-_BASE : Xeon Bot Inc._
-_ORI SCRIPT : Doge Bot Version 2_
+https://github.com
+_BASE : DVT Bot Inc._
+_ORI SCRIPT : Mayumi DVT Version 2.0_
 _OWNER : ${NamaOwner}_
 ⍟ ────────────────── ⍟`
 buttons = [
@@ -3233,7 +3233,7 @@ donasi =`╭─────────────────
 │     ❒ *DONATE BOT OWNER* ❒
 │╭────────────────
 │⬡» *GOOGLE PAY : ${pulsa}*   
-│⬡» *PAYTM : ${dana}*    
+│⬡» *Dana/Ovo : ${dana}*    
 │└─Contact owner, if u wish to donate──
 └──────────────────────────`
 buttons = [
@@ -3253,7 +3253,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋`,
-							"hydratedFooterText": `Doge Bot`,
+							"hydratedFooterText": `Mayumi DVT`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -3301,12 +3301,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋`,
-    "hydratedFooterText": `Doge Bot`,
+    "hydratedFooterText": `Mayumi DVT`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Doge Bot Script`,
-          "url": "https://github.com/DGXeon/DogeBot2"
+          "displayText": `Mayumi DVT Script`,
+          "url": "https://github.com"
         },
         "index": 0
       }
@@ -3423,7 +3423,7 @@ break
         let pin = await hx.pinterest(q);
         let ac = pin[Math.floor(Math.random() * pin.length)];
         let di = await getBuffer(ac);
-buttons = [{buttonId: `awokekekkew`,buttonText:{displayText: `Noice😏`},type:1}]
+buttons = [{buttonId: `Horny?`,buttonText:{displayText: `Noice😏`},type:1}]
               imageMsg = (await alpha.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
               buttonsMessage = {footerText:'How is it?', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
@@ -3512,7 +3512,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 const buttons = [{buttonId: 'autotyping on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autotyping off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: buttons,
     headerType: 1
 }
@@ -3532,7 +3532,7 @@ await alpha.sendMessage(from, btnharam, MessageType.buttonsMessage, {quoted: fte
 const buttons = [{buttonId: 'antidelete on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antidelete off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: buttons,
     headerType: 1
 }
@@ -3719,9 +3719,9 @@ if (args.length < 1) return reply('Where is the link? ')
 if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.api)
 if (Number(filesize) >= 30000) return reply(`*「 MEDIAFIRE DOWNLOAD 」*
 
-*🐶 Name :* ${res[0].nama}
-*🐶 Size :* ${res[0].size}
-*🐶 Link :* ${res[0].link}
+*🌀 Name :* ${res[0].nama}
+*🌀 Size :* ${res[0].size}
+*🌀 Link :* ${res[0].link}
 
 _Sorry the size exceeds the maximum limit, please click the link above_`)
 sticWait(from)
@@ -3730,9 +3730,9 @@ res = await mediafireDl(teks)
 result = `*「 DOWNLOAD MEDIAFIRE 」*
 
 *Data Successfully Obtained!*
-\`\`\`🐶 Name : ${res[0].nama}\`\`\`
-\`\`\`🐶 Size : ${res[0].size}\`\`\`
-\`\`\`🐶 Link : ${res[0].link}\`\`\`
+\`\`\`☀️ Name : ${res[0].nama}\`\`\`
+\`\`\`☀️ Size : ${res[0].size}\`\`\`
+\`\`\`☀️ Link : ${res[0].link}\`\`\`
 
 _The file is being sent, Please wait a few minutes_`
 reply(result)
@@ -4020,7 +4020,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 punten = [{buttonId: 'antivirtex off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antivirtex on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: punten,
     headerType: 1
 }
@@ -4049,7 +4049,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: punten,
     headerType: 1
 }
@@ -4078,7 +4078,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: punten,
     headerType: 1
 }
@@ -4103,7 +4103,7 @@ await alpha.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: ftex}
 punten = [{buttonId: 'antibug off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antibug on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btasu = {
     contentText: `${anu}`,
-    footerText: '*Doge Bot*',
+    footerText: '*Mayumi DVT*',
     buttons: punten,
     headerType: 1
 }
@@ -4329,10 +4329,10 @@ break
 					} else {
 						for (let _ of anu) {
 							//sendMess(_.jid, `${body.slice(4)}`)
-buttons = [{buttonId: `menu`, buttonText: {displayText: '🐶MENU🐶'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '👤OWNER👤'}, type: 1}]
+buttons = [{buttonId: `menu`, buttonText: {displayText: '❄️MENU❄️'}, type: 1},{buttonId: `owner`, buttonText: {displayText: '👤OWNER👤'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*_Doge Bot BROADCAST_*',
+    footerText: '*_Mayumi DVT BROADCAST_*',
     buttons: buttons,
     headerType: 1
 }
@@ -4883,7 +4883,7 @@ break
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🐶 @${mem.jid.split('@')[0]}\n`
+						teks += `🍁 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -5007,8 +5007,8 @@ alpha.sendMessage(nomor, `▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
     itemCount: -969769349, // Bug
     status: 1,
     surface: 1,
-    message: '☠️Asylum☠️',
-    orderTitle: 'AsylumVirus', // Idk what this does
+    message: '☠️DVT☠️',
+    orderTitle: 'DVTVirus', // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5051,7 +5051,7 @@ if (args.length < 1) return reply('Amount?')
 		        alpha.sendMessage(from, options, text, {quoted:{ 
 	    key: {
 	    fromMe: false, 
-	    participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "62882248593508@s.whatsapp.net" } : {}) 
+	    participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "62833@s.whatsapp.net" } : {}) 
 	    },
                         "message": {
                         "orderMessage": {
@@ -5059,9 +5059,9 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Mayumi DVT`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "6283161567237@s.whatsapp.net",
+						"sellerJid": "6283117436733@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
@@ -5070,7 +5070,7 @@ if (args.length < 1) return reply('Amount?')
 		        alpha.sendMessage(from, 'Successfully Submit Trolley Bug2', text, {quoted:{ 
 	    key: {
 	    fromMe: false, 
-	    participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "62882248593508@s.whatsapp.net" } : {}) 
+	    participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283117436733@s.whatsapp.net" } : {}) 
 	    },
                         "message": {
                         "orderMessage": {
@@ -5078,9 +5078,9 @@ if (args.length < 1) return reply('Amount?')
 						"itemCount": -3599964009,
 						"status": "INQUIRY",
 						"surface": "CATALOG",
-						"message": `Doge Bot`,
+						"message": `Mayumi DVT`,
 						"orderTitle": `${NamaOwner}`,
-						"sellerJid": "6283161567237@s.whatsapp.net",
+						"sellerJid": "6283117436733@s.whatsapp.net",
 						"token": "AR4QmUKv7r4P0XYHtHmhLqoFOOhwn8SqO903CVo9raQL4A=="
 					}}}})
 		        }
@@ -5089,7 +5089,7 @@ if (args.length < 1) return reply('Amount?')
 case 'bugcombine':
 if (!isOwner && !mek.key.fromMe) return sticOwner(from)
                  alpha.toggleDisappearingMessages(from, 'HACKED')
-alpha.sendMessage(from, `Doge Bot`, text, {
+alpha.sendMessage(from, `Mayumi DVT`, text, {
  quoted: {
   key: {
    participant: '0@s.whatsapp.net' // Fake sender Jid
@@ -5099,7 +5099,7 @@ alpha.sendMessage(from, `Doge Bot`, text, {
     itemCount: 9999999, // Bug
     status: 1,
     surface: 1,
-    message: `Doge Bot`,
+    message: `Mayumi DVT`,
     orderTitle: `${NamaOwner}`, // Idk what this does
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5118,7 +5118,7 @@ alpha.updatePresence(from, Presence.composing)
 		       alpha.sendMessage(from, {degreesLatitude: 34.0184,
 						degreesLongitude: -118.411,
 						name: `${NamaOwner}`,
-						address: `Doge Bot`,
+						address: `Mayumi DVT`,
                         jpegThumbnail: dfrply },location,{
  quoted: {
   key: {
@@ -5130,7 +5130,7 @@ alpha.updatePresence(from, Presence.composing)
     status: 1,
     surface: 1,
     message: `${NamaOwner}`,
-    orderTitle: `Doge Bot`, // 
+    orderTitle: `Mayumi DVT`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
   }
@@ -5151,7 +5151,7 @@ alpha.sendMessage(from, 'okay okay',text, {
     itemCount: 70000, // Bug
     status: 1,
     surface: 1,
-    message: `Doge Bot`,
+    message: `Mayumi DVT`,
     orderTitle: `${NamaOwner}`, // 
     sellerJid: '0@s.whatsapp.net' // Seller
    }
@@ -5236,28 +5236,28 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
                 const filter1 = await ytsd.getFilters(input)
                 const filters1 = filter1.get('Type').get('Video')
                 const { items } = await ytsd(filters1.url, { limit: 10 })
-                let hehe = `*🐶 YOUTUBE SEARCH*
-*🐶 Search Query:* ${input}\n\n`
+                let hehe = `*🌊 YOUTUBE SEARCH*
+*🌊 Search Query:* ${input}\n\n`
                 for (let i = 0; i < items.length; i++) {
                     hehe += `───────────────\n
-*🐶 Title:* ${items[i].title}
-*🐶 Id:* ${items[i].id}
-*🐶 Watched:* ${items[i].views}
-*🐶 Duration:* ${items[i].duration}
-*🐶 Link:* ${items[i].url}\n\n`
+*🌊 Title:* ${items[i].title}
+*🌊 Id:* ${items[i].id}
+*🌊 Watched:* ${items[i].views}
+*🌊 Duration:* ${items[i].duration}
+*🌊 Link:* ${items[i].url}\n\n`
                 }
                 thumb = await getBuffer(items[0].bestThumbnail.url)
                 await alpha.sendMessage(from, thumb, image, {quoted: mek, caption: `${hehe}───────────────\n
 *- HOW TO DOWNLOAD -*
-🐶 ${prefix}ytmp3 [link yt]
-🐶 ${prefix}ytmp4 [link yt]
+🌪️ ${prefix}ytmp3 [link yt]
+🌪️ ${prefix}ytmp4 [link yt]
 
 _Example:_
 #ytmp3 https://www.youtube.com/watch?v=pT9U15nER7s
 
 _Note :_
 ytmp3 => Music
-ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`SEARCH: ${args[0]}`,body:"🐶YOUTUBE SEARCH",mediaType:"2",thumbnail:pporigi,mediaUrl:`https://youtu.be/B7DN5miMS3k`}}})
+ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:`SEARCH: ${args[0]}`,body:"🌊YOUTUBE SEARCH",mediaType:"2",thumbnail:pporigi,mediaUrl:`https://youtu.be`}}})
             } catch(e) {
                 reply('Didn\'t find anything or there is any error!')
                 reply(`Error: ${e.message}`)
@@ -5276,7 +5276,7 @@ ytmp4 => Video`, contextInfo: { forwardingScore: 508, isForwarded: true, externa
 								axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 								.then((a) => {
 								if (Number(filesize) >= 30000) return sendMediaURL(from, thumb, `❏ *YTmp3*\n\n❏ *Title* : ${title}\n❏ *Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Sorry, the duration exceeds the maximum limit, please click the link above_`)
-								sendFileFromUrl(dl_link, document, {mimetype: 'audio/mp3', filename: `${title}.mp3`, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:title,body:"🐶 YTMP3",mediaType:"2",thumbnail:getBuffer(thumb),mediaUrl:`${body.slice(7)}`}}}).catch(() => reply(mess.error.api))
+								sendFileFromUrl(dl_link, document, {mimetype: 'audio/mp3', filename: `${title}.mp3`, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title:title,body:"🌊 YTMP3",mediaType:"2",thumbnail:getBuffer(thumb),mediaUrl:`${body.slice(7)}`}}}).catch(() => reply(mess.error.api))
 							})
 					        })
 						} catch (err) {
@@ -5789,7 +5789,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_Doge Bot_*',
+    footerText: '*_Mayumi DVT_*',
     buttons: punten,
     headerType: 1
 }
