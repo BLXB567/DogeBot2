@@ -76,9 +76,9 @@ const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = re
 const client = new WAConnection()
 
 // STICKER WM
-//const exect = require('await-exec')
-//const webp = require('webp-converter')
-//const sharp = require('sharp')
+const exect = require('await-exec')
+const webp = require('webp-converter')
+const sharp = require('sharp')
 const Exif = require('./lib/exif')
 const exif = new Exif()
 
@@ -107,7 +107,7 @@ const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "Mayumi DVT";
+fake = "Miyuki DVT";
 autorespon = settings.AutoRespon
 playmusic = settings.AutoMusic
 antidelete = settings.AntiDelete
